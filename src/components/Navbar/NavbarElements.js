@@ -85,6 +85,7 @@ export const NavItem = styled.li`
 export const NavLinks = styled(LinkS)`
     color: #CCD6F6;
     display: flex;
+    font-size: 1.2em;
     align-items: center;
     text-decoration: none;
     padding: 0 2rem;
@@ -107,12 +108,12 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(LinkS)`
     border-radius: 5px;
-    background: #0A192F;
+    background: #0c4e6e;
     white-space: nowrap;
     padding: 10px 22px;
-    color: #64FFDA;
-    font-size: 16px;
-    outline: 2px solid #64FFDA;
+    color: #CCD6F6;
+    font-size: 17px;
+    outline: 2px inset #e68a00;
     border: none;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
@@ -120,8 +121,8 @@ export const NavBtnLink = styled(LinkS)`
 
     &:hover {
         transition: all 0.2s ease-in-out;
-        background: #CCD6F6;
-        color: #0A192F;
-        outline: 2px solid #CCD6F6;
+        background: #e68a00;
+        color: black;
+        outline: 2px solid #646464;
     }
 `
