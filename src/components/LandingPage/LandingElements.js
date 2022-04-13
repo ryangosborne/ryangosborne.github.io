@@ -26,7 +26,7 @@ export const LandingContent = styled.div`
 `
 
 export const LandingP = styled.p`
-    color: #CCD6F6;
+    color: #cfd5e8;
 `
 
 export const LandingSpan = styled.span`

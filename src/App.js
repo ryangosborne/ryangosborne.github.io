@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Navbar from './components/Navbar';
 import LandingPage from './components/LandingPage';
-// import About from './components/About';
+import About from './components/About';
 // import Projects from './components/Projects';
 // import Contact from './components/Contact';
 // import Footer from './components/Footer';
@@ -72,7 +72,7 @@ function App() {
 
       <LandingPage profile={profile.length === 1 ? profile : defaultProfile} />
 
-      {/* <About toggleViews={toggleViews} altSkills={altSkills} /> */}
+      <About toggleViews={toggleViews} altSkills={altSkills} />
 
       {/* <Projects projects={projectsArr.length < 0 ? projectsArr : defaultProjects} /> */}
 
