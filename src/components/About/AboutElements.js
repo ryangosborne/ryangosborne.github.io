@@ -7,7 +7,7 @@ export const AboutContainer = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height: 100vh;
+    height: 80vh;
     position: relative;
     z-index: 1;
     color: #cfd5e8;
@@ -44,8 +44,9 @@ export const AboutBlurb = styled.p`
     grid-area: grid-blurb;
     font-size: calc(14px + 1vmin);
     text-align: center;
-    margin: 1.5rem;
-    padding: 0px 60px 0px 60px;
+    margin: 1rem;
+    padding: 0px 40px 0px 40px;
+    line-height: 30px;
     color: #cfd5e8;
 `
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import Technologies from './Technologies'
-import Certifications from './Certifications'
+// import Certifications from './Certifications'
 import programmer from "../../../src/images/programmer.svg"
 
 import {
@@ -23,8 +23,18 @@ const About = ({ toggleViews, altSkills, title, blurb }) => {
   return (
     <AboutContainer id="about">
       <AboutGrid>
-        <AboutHeader>{title}</AboutHeader>
-        <AboutBlurb>{blurb}</AboutBlurb>
+        <AboutHeader>a bit about me</AboutHeader>
+
+        <AboutBlurb>
+          Hi there! My name is Ryan Osborne and I'm a developer in Halifax, Nova Scotia. I'm just about to 
+          graduate from NSCC's IT Programming Diploma with Honours and truly looking forward to starting a career
+          in such an exciting field at an exciting time. This website itself is actually a big portion of my 
+          portfolio, and something I am very proud of. This website was developed as a Capstone project by 
+          Alex Reynolds, Jason MacKeigan, Gideon Niemelainen, and myself during our 2022 winter semester. You 
+          can view and fork our repo <a href="https://github.com/CapstoneTeamGreen" target="_blank">here</a>.
+
+        </AboutBlurb>
+
         <AboutImageLocation>
           <AboutImage>
             <AboutImg src={programmer} />
@@ -36,7 +46,7 @@ const About = ({ toggleViews, altSkills, title, blurb }) => {
           {/* <ButtonToggle onClick={toggleViews}>
             {altSkills ? 'view technologies' : 'view certifications'}
           </ButtonToggle> */}
-          <ButtonToggle>all_skills()</ButtonToggle>
+          <ButtonToggle>technical_skills()</ButtonToggle>
 
         </AboutToggleText>
 
@@ -56,8 +66,12 @@ const About = ({ toggleViews, altSkills, title, blurb }) => {
 
 About.defaultProps = {
   title: "Who Am I",
-  blurb: "For this portfolio I will demonstrate my determination. Throughout my education at NSCC I have been challenged by assignments and " +
-  "had to persevere!"
+  blurb: "Hi there! My name is Ryan Osborne and I'm a developer in Halifax, Nova Scotia. " +
+  "I'm just about to graduate from NSCC's IT Programming Diploma with Honours and truly looking forward to " +
+  "starting a career in such an excited field at an exciting time. This website itself is actually a big portion" +
+  "of my portfolio, and something I am very proud of. This website was developed as a Capstone project" +
+  "by Alex Reynolds, Jason MacKeigan, Gideon Niemelainen and myself during our 2022 winter semester. " +
+  "You can view our public repo here"
 }
 
 export default About

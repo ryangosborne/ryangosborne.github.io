@@ -3,11 +3,13 @@ import Navbar from './components/Navbar';
 import LandingPage from './components/LandingPage';
 import About from './components/About';
 // import Projects from './components/Projects';
-// import Contact from './components/Contact';
-// import Footer from './components/Footer';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { project1, project2, project3, project4, project5 } from './DefaultProjects';
 import './App.css';
+import PPIT from './components/PPIT';
+// import KeySkill from './components/PPIT';
 
 function App() {
 
@@ -74,11 +76,13 @@ function App() {
 
       <About toggleViews={toggleViews} altSkills={altSkills} />
 
+      <PPIT />
+
       {/* <Projects projects={projectsArr.length < 0 ? projectsArr : defaultProjects} /> */}
 
-      {/* <Contact /> */}
+      <Contact />
 
-      {/* <Footer /> */}
+      <Footer />
     </Router>
   );
 }

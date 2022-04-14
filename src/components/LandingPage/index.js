@@ -17,10 +17,10 @@ const LandingPage = ({ profile }) => {
 
           <LandingContent>
                 <LandingP>Hello, my name is
-                  <LandingSpan> {profile.authorName}</LandingSpan><br/>
-                  I'm a
+                  <LandingSpan> {profile.authorName}</LandingSpan>.<br/>
+                    I'm a
                   <LandingSpan> {profile.developerType} </LandingSpan>
-                  developer
+                  developer.
               </LandingP>
           </LandingContent>
 

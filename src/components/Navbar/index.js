@@ -57,10 +57,10 @@ const Navbar = ({ toggle }) => {
                                 spy={true}
                                 exact='true'
                                 offset={-80}>
-                                About
+                                about
                             </NavLinks>
                         </NavItem>
-                        <NavItem>
+                        {/* <NavItem>
                             <NavLinks
                                 to='projects'
                                 smooth={true}
@@ -70,7 +70,7 @@ const Navbar = ({ toggle }) => {
                                 offset={-80}>
                                 Projects
                             </NavLinks>
-                        </NavItem>
+                        </NavItem> */}
                     </NavMenu>
                     <NavBtn>
                         <NavBtnLink
@@ -80,7 +80,7 @@ const Navbar = ({ toggle }) => {
                             spy={true}
                             exact='true'
                             offset={-80}>
-                            Contact
+                            contact
                         </NavBtnLink>
                     </NavBtn>
                 </NavbarContainer>
