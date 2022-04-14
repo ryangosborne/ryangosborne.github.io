@@ -7,7 +7,7 @@ export const KeySkillContainer = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height: 70vh;
+    height: 90vh;
     position: relative;
     z-index: 1;
     padding: 40px 0px 40px 0px;
@@ -20,7 +20,33 @@ export const ProblemsFaced = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height: 70vh;
+    height: 50vh;
+    position: relative;
+    z-index: 1;
+    padding: 40px 0px 40px 0px;
+`
+
+export const Reflection = styled.div`
+    background: #0c4e6e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    height: 60vh;
+    position: relative;
+    z-index: 1;
+    padding: 40px 0px 40px 0px;
+`
+
+export const Summary = styled.div`
+    background: #0c4e6e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    height: 60vh;
     position: relative;
     z-index: 1;
     padding: 40px 0px 40px 0px;
@@ -31,6 +57,18 @@ export const PPITHeader = styled.div`
     font-weight: bold;
     color: #cfd5e8;
     display: flex;
+    letter-spacing: 0.2em;
+    align-items: center;
+    justify-content: center;
+`
+
+export const PPITSmallHeader = styled.div`
+    font-size: calc(12px + 2vmin);
+    color: #cfd5e8;
+    display: flex;
+    font-style: italic;
+    padding-top: 50px;
+    letter-spacing: 0.1em;
     align-items: center;
     justify-content: center;
 `

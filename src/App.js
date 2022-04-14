@@ -46,20 +46,20 @@ function App() {
   const [projectsArr, setProjectsArr ] = useState([]);
   const defaultProjects = [project1, project2, project3, project4, project5];
 
-  useEffect(() => {
-      fetchProjects();
-  }, [projectsArr.length])
+  // useEffect(() => {
+  //     fetchProjects();
+  // }, [projectsArr.length])
 
-  const fetchProjects = async () => {
-    await fetch('http://localhost:8079/projects/')
-      .then(response => response.json())
-      .then(data => {
-        setProjectsArr(data);
-        console.log("Projects Length: " + projectsArr.length);})
-      .catch(error => {
-        console.log(error + '\nCould not establish connection. Reading default project object')
-      })
-  }
+  // const fetchProjects = async () => {
+  //   await fetch('http://localhost:8079/projects/')
+  //     .then(response => response.json())
+  //     .then(data => {
+  //       setProjectsArr(data);
+  //       console.log("Projects Length: " + projectsArr.length);})
+  //     .catch(error => {
+  //       console.log(error + '\nCould not establish connection. Reading default project object')
+  //     })
+  // }
 
   // for Skills section
   const [altSkills, toggleSkills] = useState(false);

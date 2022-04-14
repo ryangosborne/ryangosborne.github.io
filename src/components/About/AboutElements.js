@@ -37,6 +37,7 @@ export const AboutHeader = styled.header`
     grid-area: grid-header;  
     font-size: calc(24px + 2vmin);
     font-weight: bold;
+    letter-spacing: 0.2em;
     color: #cfd5e8;
 `
 

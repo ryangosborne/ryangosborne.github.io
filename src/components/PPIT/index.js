@@ -1,6 +1,9 @@
 import React from 'react'
 import {  
-    PPITBlurb, PPITImg, KeySkillContainer, ProblemsFaced, PPITHeader, PPITSpan, PPITImage, PPITListBlurb
+    PPITBlurb, PPITImg, KeySkillContainer, ProblemsFaced, PPITHeader, PPITSpan, PPITImage, PPITListBlurb,
+    Reflection,
+    Summary,
+    PPITSmallHeader
 } from './PPITElements'
 import capstone from "../../../src/images/capstone.png"
 import challenge from "../../../src/images/challenge.png"
@@ -9,7 +12,7 @@ const PPIT = () => {
 
   return (
       <div>
-        <KeySkillContainer>
+        <KeySkillContainer id="keyskill">
             <PPITHeader>key skill</PPITHeader>
             <PPITBlurb>
                 Throughout my education at NSCC, I developed a lot of important industry skills like becoming 
@@ -34,7 +37,7 @@ const PPIT = () => {
             </PPITImage>
         </KeySkillContainer>
 
-        <ProblemsFaced>
+        <ProblemsFaced id="problems">
             <PPITHeader>problems faced</PPITHeader>
             <PPITBlurb>
             In both of these examples, I really focused a lot on letting other voices talk and hearing others' 
@@ -48,9 +51,9 @@ const PPIT = () => {
             <PPITImage>
                 <PPITListBlurb>
                     One problem faced in both of these examples was the abundance of good ideas - which, 
-                    yes, is a problem. It's really difficult to reject a good idea in favour of the "best" idea, 
-                    especially because sometimes a group member might experience rejection or disapproval 
-                    when their idea gets cut. 
+                    yes, is a problem. It's really difficult to reject a good idea in favour of 
+                    the <PPITSpan>"best" idea</PPITSpan>, especially because sometimes a group member might 
+                    experience rejection or disapproval when their idea gets cut. 
                 </PPITListBlurb>
                 <PPITListBlurb>
                     To overcome this problem, I do my best to take time and <PPITSpan>acknowledge</PPITSpan> each 
@@ -60,6 +63,46 @@ const PPIT = () => {
                 </PPITListBlurb>
             </PPITImage>
         </ProblemsFaced>
+
+        <Reflection id="reflection">
+            <PPITHeader>reflection</PPITHeader>
+            <PPITBlurb>
+                Going forward, I think being able to effectively collaborate is hugely important. It's 
+                personally valueable for me so I can take constructive criticism on ideas I present, and not let 
+                my ego get in the way of a <PPITSpan>team effort</PPITSpan>. But maybe even more importantly, 
+                being able to effectively collaborate can allow my peers and I to take on bigger challenges
+                and accomplish greater things. Isn't it funny how sometimes the quietest voices have the best ideas?
+                My goal is to make sure <PPITSpan>every voice</PPITSpan> is heard, and I think good results follow. 
+            </PPITBlurb>
+            <PPITBlurb>
+                As someone who believes in the <PPITSpan>power of diversity</PPITSpan>, I also embrace the 
+                power of collaboration and its ability to conquer great things. I want to practice being a 
+                facilitator of communication, collaboration, and continue to develop these skills to 
+                accomplish meaningful results personally and professionally.
+            </PPITBlurb>
+        </Reflection>
+
+        <Summary id="summary">
+            <PPITHeader>summary</PPITHeader>
+            <PPITSmallHeader>where am i now<PPITSpan>?</PPITSpan></PPITSmallHeader>
+            <PPITBlurb>on track to <PPITSpan>graduate with honours</PPITSpan> from NSCC's IT Programming in June 2022</PPITBlurb>
+
+            <PPITSmallHeader>where am i going<PPITSpan>?</PPITSpan></PPITSmallHeader>
+            <PPITBlurb>
+                I'm still in the exploratory phase of my programming career. I really enjoy working with 
+                front-end UIs and <PPITSpan>exercising my creativity</PPITSpan>, but I also have a great interest in autonomous 
+                vehicles, and in smart farming.
+            </PPITBlurb>
+
+            <PPITSmallHeader>how do i get there<PPITSpan>?</PPITSpan></PPITSmallHeader>
+            <PPITBlurb>
+                As simple as it sounds, I just plan to <PPITSpan>keep learning</PPITSpan>. I will learn a lot from 
+                my upcoming role as a junior front-end developer, and will supplement that learning with 
+                other projects I will do in my personal work to expand my knowledge and to create solutions I find 
+                to be meaningful. As cheesy as it is, I do really take pride in being a life-long learner. As I continue to try new 
+                things I think my exact career path will become more clear.
+            </PPITBlurb>
+        </Summary>
 
 
     </div>
