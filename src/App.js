@@ -8,8 +8,6 @@ import Footer from './components/Footer';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { project1, project2, project3, project4, project5 } from './DefaultProjects';
 import './App.css';
-import PPIT from './components/PPIT';
-// import KeySkill from './components/PPIT';
 
 function App() {
 
@@ -70,19 +68,17 @@ function App() {
 
   return (
     <Router>
-      <Navbar toggle={toggle} />
+      {/* <Navbar toggle={toggle} /> */}
 
       <LandingPage profile={profile.length === 1 ? profile : defaultProfile} />
 
-      <About toggleViews={toggleViews} altSkills={altSkills} />
-
-      <PPIT />
+      {/* <About toggleViews={toggleViews} altSkills={altSkills} /> */}
 
       {/* <Projects projects={projectsArr.length < 0 ? projectsArr : defaultProjects} /> */}
 
-      <Contact />
+      {/* <Contact /> */}
 
-      <Footer />
+      {/* <Footer /> */}
     </Router>
   );
 }

@@ -49,7 +49,7 @@ const Navbar = ({ toggle }) => {
                     </MobileIcon>
 
                     <NavMenu>
-                        <NavItem>
+                        {/* <NavItem>
                             <NavLinks
                                 to='about'
                                 smooth={true}
@@ -59,51 +59,7 @@ const Navbar = ({ toggle }) => {
                                 offset={-80}>
                                 about
                             </NavLinks>
-                        </NavItem>
-                        <NavItem>
-                            <NavLinks
-                                to='keyskill'
-                                smooth={true}
-                                duration={500}
-                                spy={true}
-                                exact='true'
-                                offset={-80}>
-                                key skill
-                            </NavLinks>
-                        </NavItem>
-                        <NavItem>
-                            <NavLinks
-                                to='problems'
-                                smooth={true}
-                                duration={500}
-                                spy={true}
-                                exact='true'
-                                offset={-80}>
-                                problems
-                            </NavLinks>
-                        </NavItem>
-                        <NavItem>
-                            <NavLinks
-                                to='reflection'
-                                smooth={true}
-                                duration={500}
-                                spy={true}
-                                exact='true'
-                                offset={-80}>
-                                reflection
-                            </NavLinks>
-                        </NavItem>
-                        <NavItem>
-                            <NavLinks
-                                to='summary'
-                                smooth={true}
-                                duration={500}
-                                spy={true}
-                                exact='true'
-                                offset={-80}>
-                                summary
-                            </NavLinks>
-                        </NavItem>
+                        </NavItem> */}
                         {/* <NavItem>
                             <NavLinks
                                 to='projects'
