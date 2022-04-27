@@ -68,7 +68,7 @@ function App() {
 
   return (
     <Router>
-      {/* <Navbar toggle={toggle} /> */}
+      <Navbar toggle={toggle} />
 
       <LandingPage profile={profile.length === 1 ? profile : defaultProfile} />
 
@@ -76,9 +76,9 @@ function App() {
 
       {/* <Projects projects={projectsArr.length < 0 ? projectsArr : defaultProjects} /> */}
 
-      {/* <Contact /> */}
+      <Contact />
 
-      {/* <Footer /> */}
+      <Footer />
     </Router>
   );
 }

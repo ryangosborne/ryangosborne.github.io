@@ -15,9 +15,8 @@ const Contact = ({ body }) => {
             <ContactHeader>reach out</ContactHeader>
             <ContactP>
                 Thanks for visiting my portfolio! To find out more about me, you can visit 
-                my <a href='https://www.linkedin.com/in/ryan-osborne-16755631/' target='_blank'>LinkedIn profile</a>, 
-                my <a href='https://github.com/ryangosborne' target='_blank'>GitHub profile</a>, or view
-                my <a href='https://nscc-my.sharepoint.com/:b:/r/personal/w0201814_campus_nscc_ca/Documents/RyanOsborne_Resume.pdf?csf=1&web=1&e=MoDRsc' target='_blank'>resume</a>.
+                my <a href='https://www.linkedin.com/in/ryan-osborne-16755631/' target='_blank'>LinkedIn profile</a>, or
+                my <a href='https://github.com/ryangosborne' target='_blank'>GitHub profile</a>.
                 You can reach me at ryangosborne@live.ca <i>or</i> simply hit the button below. Thanks for your time!
             </ContactP>
             <ButtonWrapper>
